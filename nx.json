@@ -25,6 +25,16 @@
     "flight-app-e2e": {
       "tags": [],
       "implicitDependencies": ["flight-app"]
+    },
+    "shell": {
+      "tags": []
+    },
+    "shell-e2e": {
+      "tags": [],
+      "implicitDependencies": ["shell"]
+    },
+    "flight-lib": {
+      "tags": []
     }
   }
 }

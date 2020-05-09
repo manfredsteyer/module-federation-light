@@ -1,0 +1,16 @@
+<div id="container">
+    <h1>Flights</h1>
+    <div>
+        <input type="text" placeholder="From">
+    </div>
+    <div>
+        <input type="text" placeholder="To">
+    </div>
+    <div>
+        <button (click)="search()">Search</button>
+        <button (click)="terms()">Terms...</button>
+    </div>
+    <div>
+        <ng-container #vc></ng-container>
+    </div>
+</div>
